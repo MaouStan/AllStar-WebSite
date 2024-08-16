@@ -1,35 +1,92 @@
 # Anime Mash
 
-![Anime Mash Banner](banner.jpg)
+![Anime Mash Banner](assets/images/banner/banner.jpg)
 
 Anime Mash is a fun, interactive web application inspired by Facemash, but focused on anime characters. Users can vote for their favorite anime characters in head-to-head comparisons, helping to determine the most popular characters in the anime world.
 
-![Example GIF](example.gif)
+![Example GIF](assets/images/banner/example.gif)
 
-# AllStar2
+## Features
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+- Head-to-head comparisons of anime characters
+- Voting system to choose the best character
+- Leaderboard of top-rated characters
+- Responsive design for both desktop and mobile devices
 
-## Development server
+## Technology Stack
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This project is built using Angular, showcasing various features and best practices of the framework. It serves as a learning resource for Angular development.
 
-## Code scaffolding
+- Angular
+- TypeScript
+- RxJS
+- Angular Material (for UI components)
+- Firebase (for backend and hosting)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Getting Started
 
-## Build
+### Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Node.js (v14 or later)
+- npm (v6 or later)
+- Angular CLI
 
-## Running unit tests
+### Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone the repository:
+   ```
+   git clone https://github.com/MaouStan/AllStar-WebSite
+   ```
 
-## Running end-to-end tests
+2. Navigate to the project directory:
+   ```
+   cd anime-mash
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Install dependencies:
+   ```
+   npm install
+   ```
 
-## Further help
+4. Start the development server:
+   ```
+   ng serve
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+5. Open your browser and visit `http://localhost:4200`
+
+## Project Structure
+
+- `src/app/components`: Angular components
+- `src/app/services`: Services for data management and API calls
+- `src/app/models`: TypeScript interfaces and classes
+- `src/assets`: Static assets like images
+
+## License
+
+This project is licensed under the MIT License.
+
+Copyright (c) 2023 MaouStan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Acknowledgments
+
+- Inspired by Facemash
+- Thanks to all the anime creators and fans who make this possible
