@@ -4,7 +4,7 @@
 
 Anime Mash is a fun, interactive web application inspired by Facemash, but focused on anime characters. Users can vote for their favorite anime characters in head-to-head comparisons, helping to determine the most popular characters in the anime world.
 
-![Example GIF](assets/images/example.gif)
+![Example GIF](assets/images/exmaple.gif)
 
 ## Features
 
