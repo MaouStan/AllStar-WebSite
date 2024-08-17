@@ -19,7 +19,6 @@ This project is built using Angular, showcasing various features and best practi
 
 - Angular
 - TypeScript
-- RxJS
 - Angular Material (for UI components)
 - Firebase (for backend and hosting)
 
